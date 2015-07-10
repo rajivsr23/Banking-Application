@@ -1,0 +1,73 @@
+#header{
+	background-color:#FF7F50;
+}
+h3 {
+    color: #228B22;
+	position: absolute;
+	top: 200px;
+	left: 550px;
+}
+form {
+	width: 590px;
+	background:#FFD700;
+	color: #000000;
+	font: small Verdana, sans-serif;
+	position: absolute;
+	top: 200px;
+	left: 550px;
+}
+
+
+ul {                          
+	list-style-type: none;    
+	margin: 0;
+	padding: 0;
+	
+}
+
+ul.nav a{
+	display: block; 	 
+	width: 8em; 	 
+	border: 1px dashed #333; 	  	 
+	border-bottom: none;
+}
+a:link, a:visited {
+	
+	font-weight: bold;
+	color: #A9A9A9;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	letter-spacing: 1px;
+	
+}
+
+a:last-child { 	 
+	border-bottom: 1px dashed #333; 
+}
+a:hover, a:active {
+	background-color: #FF7F50;
+}
+.password{	
+	position: absolute;
+	top: 250px;
+left: 730px;}
+.tab{
+	
+	position: absolute;
+	top: 200px;
+left: 650px;}
+.message                                 /*validation message*/
+{color:#FF0000;
+	font-size: small;
+	font-weight: bold;	
+	white-space: pre;   /*Uses the horizontal spaces*/
+	display:inline;     /*Should display in the same line "star" */
+}
+
+
+
+
